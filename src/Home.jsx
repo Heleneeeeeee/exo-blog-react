@@ -61,11 +61,15 @@ const articles = [
     },
   ];
 
+
+  // récupérer tous les articles publiés du tableau
   const publishedArticles = articles.filter((article) => {
-    return article.isPublished === true;
+  return (article.isPublished === true);
   });
 
+  //récupérer les trois derniers de la nouvelle liste
   const lastThreePublishedArticles = publishedArticles.slice(-3);
+  
   return (
     <main>
       {lastThreePublishedArticles.map((article) => {
@@ -79,5 +83,5 @@ const articles = [
     </main>
   );
 }
-export default Home
+export default Home;
 

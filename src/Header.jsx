@@ -1,4 +1,5 @@
-import userLogged from "./ProfilMenu"
+import ProfilMenu from "./ProfilMenu";
+
 
 
 function Header() {
@@ -10,11 +11,11 @@ function Header() {
                     <li>Accueil</li>
                     <li>Articles</li>
                     <li>Contact</li>
-                    <li>{userLogged.firstname} {userLogged.lastname}</li>
+                    <ProfilMenu />
                 </ul>
             </nav>
         </header>
     )
 }
 
-export default Header
+export default Header;
