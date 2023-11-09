@@ -78,10 +78,11 @@ const articles = [
     <>
     <Header />
     <main>
+      <h2>Mes trois derniers articles</h2>
       {lastThreePublishedArticles.map((article) => {
         return (
           <article>
-            <h2>{article.title}</h2>
+            <h3 className="art">{article.title}</h3>
             <p>{article.content}</p>
           </article>
         );

@@ -3,7 +3,6 @@
   padding:0;
 }
 
-
 main {
   background-image: url('./8830758_505.jpg');
   height: 600px;
@@ -11,11 +10,18 @@ main {
 }
 
 h2 {
+  color:black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.art {
     text-decoration:underline;
     color:brown;
+    text-align:inherit;
   }
 
 article {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
