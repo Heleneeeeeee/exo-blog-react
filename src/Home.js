@@ -61,18 +61,18 @@ const articles = [
     },
   ];
 
-  const publishedArticles = articles.filter((product) => {
-    return product.isPublished === true;
+  const publishedArticles = articles.filter((article) => {
+    return article.isPublished === true;
   });
 
   const lastThreePublishedArticles = publishedArticles.slice(-3);
   return (
     <main>
-      {lastThreePublishedArticles.map((product) => {
+      {lastThreePublishedArticles.map((article) => {
         return (
           <article>
-            <h2>{product.title}</h2>
-            <p>{product.price} e</p>
+            <h2>{article.title}</h2>
+            <p>{article.price} e</p>
           </article>
         );
       })}
