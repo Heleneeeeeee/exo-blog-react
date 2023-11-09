@@ -1,10 +1,8 @@
 import ProfilMenu from "./ProfilMenu";
 
-
-
 function Header() {
     return (
-        <header>
+        <header className="header">
             <h1> Mon Super Blog </h1>
             <nav>
                 <ul>
