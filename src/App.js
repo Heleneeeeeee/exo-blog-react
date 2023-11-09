@@ -1,15 +1,21 @@
-import Header from './Header';
 import Home from './Home';
-import Footer from './Footer';
+import Contact from './Contact';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Home />
-      <Footer />
-    </div>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element = {<Home />} />
+      <Route path="/contact" element = {<Contact />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
 
 export default App;
+
+
+// Besoin d'une librairie
+// Déclare 2 composants Browser Router et Route
+// Bien penser à recharcher tout ce qui est commun à toutes les pages (header/footer)

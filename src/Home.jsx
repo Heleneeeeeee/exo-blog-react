@@ -1,3 +1,6 @@
+import Header from "./Header"
+import Footer from "./Footer"
+
 function Home() {
 const articles = [
     {
@@ -71,6 +74,8 @@ const articles = [
   const lastThreePublishedArticles = publishedArticles.slice(-3);
   
   return (
+    <>
+    <Header />
     <main>
       {lastThreePublishedArticles.map((article) => {
         return (
@@ -81,6 +86,8 @@ const articles = [
         );
       })}
     </main>
+    <Footer />
+    </>
   );
 }
 export default Home;
