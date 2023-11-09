@@ -1,8 +1,11 @@
 import ProfilMenu from "./ProfilMenu";
+import './Header.scss';
+import './Home.scss';
+import './Footer.scss';
 
 function Header() {
     return (
-        <header className="header">
+        <header>
             <h1> Mon Super Blog </h1>
             <nav>
                 <ul>

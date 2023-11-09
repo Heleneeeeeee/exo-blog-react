@@ -1,0 +1,23 @@
+h1 {
+    font-weight: bold;
+    color:rgb(9, 9, 59);
+    text-align: center;
+    
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;  
+  }
+  
+  ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+    
+  li {
+     margin-right:15px;
+  }
+
+  
