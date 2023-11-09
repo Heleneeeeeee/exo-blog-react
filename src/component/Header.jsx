@@ -1,7 +1,5 @@
-import ProfilMenu from "./ProfilMenu";
+import ProfilMenu from "../ProfilMenu";
 import './Header.scss';
-import './Home.scss';
-import './Footer.scss';
 
 function Header() {
     return (
